@@ -1,0 +1,42 @@
+{
+  "name": "XVIEWAMapManager",
+  "version": "0.1.3",
+  "summary": "高德地图相关，定位以及导航",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaheng666/XVIEWAMapManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaheng666": "key@xiaheng.net"
+  },
+  "source": {
+    "git": "git@github.com:xiaheng666/XVIEWAMapManager.git",
+    "tag": "0.1.3"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "XVIEWLocationManager",
+      "source_files": "XVIEWAMapManager/Classes/XVIEWLocationManager/*.{h,m}",
+      "ios": {
+        "vendored_libraries": "XVIEWAMapManager/Classes/XVIEWLocationManager/*.a"
+      },
+      "dependencies": {
+        "AMapLocation": [
+
+        ]
+      }
+    },
+    {
+      "name": "XVIEWNaviManager",
+      "source_files": "XVIEWAMapManager/Classes/XVIEWNaviManager/*.{h,m}",
+      "ios": {
+        "vendored_libraries": "XVIEWAMapManager/Classes/XVIEWNaviManager/*.a"
+      }
+    }
+  ]
+}

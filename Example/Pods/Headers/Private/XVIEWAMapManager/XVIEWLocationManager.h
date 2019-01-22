@@ -1,0 +1,1 @@
+../../../../../XVIEWAMapManager/Classes/XVIEWLocationManager/XVIEWLocationManager.h

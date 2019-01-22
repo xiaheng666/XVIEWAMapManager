@@ -1,0 +1,6 @@
+framework module XVIEWAMapManager {
+  umbrella header "XVIEWAMapManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
