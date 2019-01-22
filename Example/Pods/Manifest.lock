@@ -1,30 +1,41 @@
 PODS:
+  - AMap3DMap (6.6.0):
+    - AMapFoundation (~> 1.5)
   - AMapFoundation (1.5.6)
   - AMapLocation (2.6.1):
     - AMapFoundation (~> 1.4)
+  - AMapNavi (6.5.0):
+    - AMap3DMap (~> 6.4)
+    - AMapFoundation (~> 1.5)
   - XVIEWAMapManager (0.1.3):
     - XVIEWAMapManager/XVIEWLocationManager (= 0.1.3)
     - XVIEWAMapManager/XVIEWNaviManager (= 0.1.3)
   - XVIEWAMapManager/XVIEWLocationManager (0.1.3):
     - AMapLocation
-  - XVIEWAMapManager/XVIEWNaviManager (0.1.3)
+  - XVIEWAMapManager/XVIEWNaviManager (0.1.3):
+    - AMap3DMap
+    - AMapNavi
 
 DEPENDENCIES:
   - XVIEWAMapManager (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AMap3DMap
     - AMapFoundation
     - AMapLocation
+    - AMapNavi
 
 EXTERNAL SOURCES:
   XVIEWAMapManager:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AMap3DMap: 37425c7d47420cbfaee88328be3dc3781814b999
   AMapFoundation: 20fce2a12cd152e1092afdd04379cdac21932185
   AMapLocation: cf024b53dc03663efb4ea4bcce27d4cce58bb97a
-  XVIEWAMapManager: d32656b152a68d476fb786a9139ae3f914fb2d9d
+  AMapNavi: b3084406c074bdc2f6f6e80474fa6aa80f4ec0d0
+  XVIEWAMapManager: 55cb0ebc7a7a0cd48947160f2938211e49993553
 
 PODFILE CHECKSUM: f98ae45b5fd11f4cc6fb5794c40af1b023506125
 

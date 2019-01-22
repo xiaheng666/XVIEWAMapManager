@@ -36,6 +36,14 @@
       "source_files": "XVIEWAMapManager/Classes/XVIEWNaviManager/*.{h,m}",
       "ios": {
         "vendored_libraries": "XVIEWAMapManager/Classes/XVIEWNaviManager/*.a"
+      },
+      "dependencies": {
+        "AMap3DMap": [
+
+        ],
+        "AMapNavi": [
+
+        ]
       }
     }
   ]
