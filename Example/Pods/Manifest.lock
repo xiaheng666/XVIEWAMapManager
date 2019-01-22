@@ -14,6 +14,7 @@ PODS:
     - AMapLocation
   - XVIEWAMapManager/XVIEWNaviManager (0.1.3):
     - AMap3DMap
+    - AMapLocation
     - AMapNavi
 
 DEPENDENCIES:
@@ -35,7 +36,7 @@ SPEC CHECKSUMS:
   AMapFoundation: 20fce2a12cd152e1092afdd04379cdac21932185
   AMapLocation: cf024b53dc03663efb4ea4bcce27d4cce58bb97a
   AMapNavi: b3084406c074bdc2f6f6e80474fa6aa80f4ec0d0
-  XVIEWAMapManager: 55cb0ebc7a7a0cd48947160f2938211e49993553
+  XVIEWAMapManager: 5245a1ee7bb07baef35e356ddd84e4292bb08a1f
 
 PODFILE CHECKSUM: f98ae45b5fd11f4cc6fb5794c40af1b023506125
 

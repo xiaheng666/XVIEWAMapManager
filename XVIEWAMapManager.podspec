@@ -47,6 +47,7 @@ TODO: Add long description of the pod here.
    s.subspec 'XVIEWNaviManager' do |sb|
        sb.source_files = 'XVIEWAMapManager/Classes/XVIEWNaviManager/*.{h,m}'
        sb.ios.vendored_libraries = 'XVIEWAMapManager/Classes/XVIEWNaviManager/*.a'
+       sb.dependency 'AMapLocation'
        sb.dependency 'AMap3DMap'
        sb.dependency 'AMapNavi'
    end

@@ -1,0 +1,2 @@
+MAMapKit filter=lfs diff=lfs merge=lfs -text
+AMapNaviKit filter=lfs diff=lfs merge=lfs -text

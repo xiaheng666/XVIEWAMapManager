@@ -38,6 +38,9 @@
         "vendored_libraries": "XVIEWAMapManager/Classes/XVIEWNaviManager/*.a"
       },
       "dependencies": {
+        "AMapLocation": [
+
+        ],
         "AMap3DMap": [
 
         ],
