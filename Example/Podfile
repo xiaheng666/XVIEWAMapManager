@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XVIEWAMapManager_Example' do
+  pod 'XVIEWAMapManager', :path => '../'
+
+  target 'XVIEWAMapManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
