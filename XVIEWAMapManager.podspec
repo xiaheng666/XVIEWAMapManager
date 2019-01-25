@@ -42,12 +42,12 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
    #二级目录
    s.subspec 'XVIEWLocationManager' do |ss|
-       ss.source_files = 'XVIEWAMapManager/Classes/XVIEWLocationManager/*.{h,m}'
+       ss.source_files = 'XVIEWAMapManager/Classes/XVIEWLocationManager/*.h'
        ss.ios.vendored_libraries = 'XVIEWAMapManager/Classes/XVIEWLocationManager/*.a'
        ss.dependency 'AMapLocation'
    end
    s.subspec 'XVIEWNaviManager' do |sb|
-       sb.source_files = 'XVIEWAMapManager/Classes/XVIEWNaviManager/*.{h,m}'
+       sb.source_files = 'XVIEWAMapManager/Classes/XVIEWNaviManager/*.h'
        sb.ios.vendored_libraries = 'XVIEWAMapManager/Classes/XVIEWNaviManager/*.a'
        sb.dependency 'AMapLocation'
        sb.dependency 'AMap3DMap'

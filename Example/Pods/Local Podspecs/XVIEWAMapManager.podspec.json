@@ -25,7 +25,7 @@
   "subspecs": [
     {
       "name": "XVIEWLocationManager",
-      "source_files": "XVIEWAMapManager/Classes/XVIEWLocationManager/*.{h,m}",
+      "source_files": "XVIEWAMapManager/Classes/XVIEWLocationManager/*.h",
       "ios": {
         "vendored_libraries": "XVIEWAMapManager/Classes/XVIEWLocationManager/*.a"
       },
@@ -37,7 +37,7 @@
     },
     {
       "name": "XVIEWNaviManager",
-      "source_files": "XVIEWAMapManager/Classes/XVIEWNaviManager/*.{h,m}",
+      "source_files": "XVIEWAMapManager/Classes/XVIEWNaviManager/*.h",
       "ios": {
         "vendored_libraries": "XVIEWAMapManager/Classes/XVIEWNaviManager/*.a"
       },
