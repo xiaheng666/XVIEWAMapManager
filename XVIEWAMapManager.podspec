@@ -30,6 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
+  s.source_files = 'XVIEWAMapManager/Classes/*.h'
+  s.ios.vendored_libraries = 'XVIEWAMapManager/Classes/*.a'
   #s.source_files = 'XVIEWAMapManager/Classes/**/*'
   
   # s.resource_bundles = {

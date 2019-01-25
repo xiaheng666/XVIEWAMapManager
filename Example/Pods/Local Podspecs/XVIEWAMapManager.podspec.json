@@ -18,6 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
+  "source_files": "XVIEWAMapManager/Classes/*.h",
+  "ios": {
+    "vendored_libraries": "XVIEWAMapManager/Classes/*.a"
+  },
   "subspecs": [
     {
       "name": "XVIEWLocationManager",

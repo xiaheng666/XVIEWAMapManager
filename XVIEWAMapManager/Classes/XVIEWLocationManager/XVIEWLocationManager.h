@@ -16,12 +16,6 @@
 + (instancetype)sharedLocationManager;
 
 /**
- *  注册应用
- @param param     data    {"appId":高德key}
- */
-- (void)registerApp:(NSDictionary *)param;
-
-/**
  *  定位
  @param param    callback回调方法
  */
