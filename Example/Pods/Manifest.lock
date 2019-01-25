@@ -7,12 +7,12 @@ PODS:
   - AMapNavi (6.5.0):
     - AMap3DMap (~> 6.4)
     - AMapFoundation (~> 1.5)
-  - XVIEWAMapManager (0.1.3):
-    - XVIEWAMapManager/XVIEWLocationManager (= 0.1.3)
-    - XVIEWAMapManager/XVIEWNaviManager (= 0.1.3)
-  - XVIEWAMapManager/XVIEWLocationManager (0.1.3):
+  - XVIEWAMapManager (0.1.4):
+    - XVIEWAMapManager/XVIEWLocationManager (= 0.1.4)
+    - XVIEWAMapManager/XVIEWNaviManager (= 0.1.4)
+  - XVIEWAMapManager/XVIEWLocationManager (0.1.4):
     - AMapLocation
-  - XVIEWAMapManager/XVIEWNaviManager (0.1.3):
+  - XVIEWAMapManager/XVIEWNaviManager (0.1.4):
     - AMap3DMap
     - AMapLocation
     - AMapNavi
@@ -36,7 +36,7 @@ SPEC CHECKSUMS:
   AMapFoundation: 20fce2a12cd152e1092afdd04379cdac21932185
   AMapLocation: cf024b53dc03663efb4ea4bcce27d4cce58bb97a
   AMapNavi: b3084406c074bdc2f6f6e80474fa6aa80f4ec0d0
-  XVIEWAMapManager: 07501b6c7bd35994d527a31a223b24e17a271885
+  XVIEWAMapManager: 7024a06e4e49d69eb26a7a253d34687b5c59e2eb
 
 PODFILE CHECKSUM: f98ae45b5fd11f4cc6fb5794c40af1b023506125
 
