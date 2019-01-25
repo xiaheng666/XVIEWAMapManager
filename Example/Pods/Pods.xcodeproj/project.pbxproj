@@ -41,17 +41,21 @@
 		123275EF17C160EC9D363646B7873CFE /* AMapNaviWalkDataRepresentable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviWalkDataRepresentable.h; path = AMapNaviKit.framework/Headers/AMapNaviWalkDataRepresentable.h; sourceTree = "<group>"; };
 		1C182D9DFB91620A9BB7BC9802AA0673 /* AMapNaviCommonObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviCommonObj.h; path = AMapNaviKit.framework/Headers/AMapNaviCommonObj.h; sourceTree = "<group>"; };
 		1C5C4E8628FC3902AA400B72339B1142 /* AMapFoundationVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationVersion.h; path = AMapFoundationKit.framework/Headers/AMapFoundationVersion.h; sourceTree = "<group>"; };
+		1D0B6F0FFB9CB3BE278C891569DFA7C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1EB90A88B2B738D3F8BECCEB8FDE0328 /* MAAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotation.h; path = MAMapKit.framework/Headers/MAAnnotation.h; sourceTree = "<group>"; };
 		1FDBB4B8C5B1AC00936AF6AE66DC4EB9 /* Pods-XVIEWAMapManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWAMapManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		20910FD21E53D038F3A4DDFD4BA3B2B0 /* MAIndoorInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAIndoorInfo.h; path = MAMapKit.framework/Headers/MAIndoorInfo.h; sourceTree = "<group>"; };
 		22870779E7E9E58A4138062D7252C43D /* AMapNaviHUDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviHUDView.h; path = AMapNaviKit.framework/Headers/AMapNaviHUDView.h; sourceTree = "<group>"; };
+		245EDA396D7721EC5AAF0A9370EEE527 /* GPSNaviViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPSNaviViewController.h; sourceTree = "<group>"; };
 		25AB51D8BBFAAC849C69782ACD63532D /* Pods_XVIEWAMapManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWAMapManager_Tests.framework; path = "Pods-XVIEWAMapManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DB11E61393806C8F395BA0190C8BDC /* MAGeodesicPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGeodesicPolyline.h; path = MAMapKit.framework/Headers/MAGeodesicPolyline.h; sourceTree = "<group>"; };
 		2C05B157DAE6CFA34AAF1E425791B9CF /* NSMutableArray+AMapSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+AMapSafe.h"; path = "AMapFoundationKit.framework/Headers/NSMutableArray+AMapSafe.h"; sourceTree = "<group>"; };
-		2F224D2A812673601FDE71126619E6B1 /* XVIEWAMapManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWAMapManager.h; path = XVIEWAMapManager/Classes/XVIEWAMapManager.h; sourceTree = "<group>"; };
+		317A8CE42411665BA86C232610567704 /* XVIEWAMapManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWAMapManager.h; path = XVIEWAMapManager/Classes/XVIEWAMapManager.h; sourceTree = "<group>"; };
+		3187BB8221B011C15051ECF7A7125F33 /* libAMapManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libAMapManager.a; path = XVIEWAMapManager/Classes/libAMapManager.a; sourceTree = "<group>"; };
 		34E5E8382401A586EA0803693BCF2A70 /* MAAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotationView.h; path = MAMapKit.framework/Headers/MAAnnotationView.h; sourceTree = "<group>"; };
 		3564CA41ACB88C6542AEBDC72046A87D /* NSObject+AMapJsonSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+AMapJsonSerialization.h"; path = "AMapFoundationKit.framework/Headers/NSObject+AMapJsonSerialization.h"; sourceTree = "<group>"; };
 		36F4BEC50CC46083BACEB8F435AF5E2F /* AMapNaviVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviVersion.h; path = AMapNaviKit.framework/Headers/AMapNaviVersion.h; sourceTree = "<group>"; };
+		37E20180C7B426EA50640B2D2951BA93 /* XVIEWAMapManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWAMapManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3A972F0D47C295C3FCE0C25B6C8D1824 /* AMapNaviCompositeUserConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviCompositeUserConfig.h; path = AMapNaviKit.framework/Headers/AMapNaviCompositeUserConfig.h; sourceTree = "<group>"; };
 		3B506ABEA5FB8ED90741DC9D93AA7DA5 /* AMapNaviLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviLocation.h; path = AMapNaviKit.framework/Headers/AMapNaviLocation.h; sourceTree = "<group>"; };
 		3CED4D68C048065218CFB774BA8B6861 /* AMapURLSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearch.h; path = AMapFoundationKit.framework/Headers/AMapURLSearch.h; sourceTree = "<group>"; };
@@ -60,7 +64,6 @@
 		4192C1FAEA8894128FCAD979D94B49CD /* MATileOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATileOverlayRenderer.h; path = MAMapKit.framework/Headers/MATileOverlayRenderer.h; sourceTree = "<group>"; };
 		453908F4FFB46ECE3E77C0D59FA2ED02 /* Pods-XVIEWAMapManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XVIEWAMapManager_Tests.modulemap"; sourceTree = "<group>"; };
 		4655F005B3ED2BD4CD8901CE79E6A0FF /* NSMutableDictionary+AMapSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+AMapSafe.h"; path = "AMapFoundationKit.framework/Headers/NSMutableDictionary+AMapSafe.h"; sourceTree = "<group>"; };
-		499D36DD76D56FC4A27D8A7EC957599F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4A303E43DC1E187C1B37B40DBC5B121D /* AMapLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationManager.h; path = AMapLocationKit.framework/Headers/AMapLocationManager.h; sourceTree = "<group>"; };
 		4B1F3680DB9724AA95C207111967CBA8 /* MAOverlayPathRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlayPathRenderer.h; path = MAMapKit.framework/Headers/MAOverlayPathRenderer.h; sourceTree = "<group>"; };
 		4CDBCD37EBB63AD917F319FB61E7C5B4 /* Pods_XVIEWAMapManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWAMapManager_Example.framework; path = "Pods-XVIEWAMapManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,12 +71,11 @@
 		4E31179ACEF0A5C29D8E7D81CEF2D557 /* MAMultiColoredPolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiColoredPolylineRenderer.h; path = MAMapKit.framework/Headers/MAMultiColoredPolylineRenderer.h; sourceTree = "<group>"; };
 		4F0AA58F16FD5D49037FDF707C59F609 /* MAOfflineMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineMap.h; path = MAMapKit.framework/Headers/MAOfflineMap.h; sourceTree = "<group>"; };
 		50466BF3F47103BC10294BD77AEBDFE7 /* AMapNaviWalkView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviWalkView.h; path = AMapNaviKit.framework/Headers/AMapNaviWalkView.h; sourceTree = "<group>"; };
-		531A08AAF5F3842103F1C2D68BBD815E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5376410CBAD48A71868E128B2BBD49A1 /* MATouchPoi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATouchPoi.h; path = MAMapKit.framework/Headers/MATouchPoi.h; sourceTree = "<group>"; };
+		58136E3F6AF63DD707AC420B49E60BF1 /* SpeechSynthesizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SpeechSynthesizer.h; sourceTree = "<group>"; };
 		587A7D3C84FEC7A9EA237DFACD1B4DA0 /* MAOfflineCity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineCity.h; path = MAMapKit.framework/Headers/MAOfflineCity.h; sourceTree = "<group>"; };
 		59B08CA6C91615C50450292E556624EB /* Pods-XVIEWAMapManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWAMapManager_Example-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5AFCA401B914BBB57697897F39900F49 /* GPSNaviViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPSNaviViewController.h; path = XVIEWAMapManager/Classes/XVIEWNaviManager/GPSNaviViewController.h; sourceTree = "<group>"; };
 		5B82D4E70668F30E2210855F7896F28B /* Pods-XVIEWAMapManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWAMapManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5C75E9F9A8DE059B00D31E279AB6B144 /* Pods-XVIEWAMapManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWAMapManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		5D2FBD2AF2B915687C42D9A1E8EB6DE8 /* MAMultiPointOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPointOverlayRenderer.h; path = MAMapKit.framework/Headers/MAMultiPointOverlayRenderer.h; sourceTree = "<group>"; };
@@ -86,7 +88,9 @@
 		6B4CB09D591F903233CB5AA9CE30A02A /* Pods-XVIEWAMapManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWAMapManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6CF4E9F0B20DDBB694A0B98D89F2EA82 /* AMapNaviCompositeAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviCompositeAnnotation.h; path = AMapNaviKit.framework/Headers/AMapNaviCompositeAnnotation.h; sourceTree = "<group>"; };
 		6D33C91FA71B1DD6EF93FF0DCE315A60 /* AMapNaviStatisticsInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviStatisticsInfo.h; path = AMapNaviKit.framework/Headers/AMapNaviStatisticsInfo.h; sourceTree = "<group>"; };
+		6D4CB8ACEB3E2604178123B51CFC8FAE /* libLocationManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLocationManager.a; path = XVIEWAMapManager/Classes/XVIEWLocationManager/libLocationManager.a; sourceTree = "<group>"; };
 		6DAE96F810A3099FAAC983B79FC2DCDA /* MAOfflineItemNationWide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemNationWide.h; path = MAMapKit.framework/Headers/MAOfflineItemNationWide.h; sourceTree = "<group>"; };
+		6F7A850913817F816D0468D77F737CC3 /* XVIEWNaviManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XVIEWNaviManager.h; sourceTree = "<group>"; };
 		6FBC7C26F869D8A13DA04496D32148BC /* AMapGeoFenceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapGeoFenceManager.h; path = AMapLocationKit.framework/Headers/AMapGeoFenceManager.h; sourceTree = "<group>"; };
 		71E26AFB43D7DD64185B0B66378188AC /* AMapNaviDriveManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviDriveManager.h; path = AMapNaviKit.framework/Headers/AMapNaviDriveManager.h; sourceTree = "<group>"; };
 		74FEA17C8ADB138ED54F59D6B458D2EB /* MAGroundOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlayRenderer.h; path = MAMapKit.framework/Headers/MAGroundOverlayRenderer.h; sourceTree = "<group>"; };
@@ -112,21 +116,19 @@
 		A1B3907F7087932B16C1E5C9FD54F541 /* MAAnnotationMoveAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotationMoveAnimation.h; path = MAMapKit.framework/Headers/MAAnnotationMoveAnimation.h; sourceTree = "<group>"; };
 		AADA49E8FD3A8C2B733E7C0EBB8C8E30 /* MAMultiPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPolyline.h; path = MAMapKit.framework/Headers/MAMultiPolyline.h; sourceTree = "<group>"; };
 		AB7294F049E6BFCB45BA25B5E2607086 /* MAArc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAArc.h; path = MAMapKit.framework/Headers/MAArc.h; sourceTree = "<group>"; };
-		AD3944EFB42AB4EE51D564AEABBF3A11 /* libAMapManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libAMapManager.a; path = XVIEWAMapManager/Classes/libAMapManager.a; sourceTree = "<group>"; };
-		AE4196F5DEDB5D2D53CFB46FBA6DF2AE /* XVIEWLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWLocationManager.h; path = XVIEWAMapManager/Classes/XVIEWLocationManager/XVIEWLocationManager.h; sourceTree = "<group>"; };
 		AF18CA86C663D6A3572128A2625AD5AD /* MALineDrawType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MALineDrawType.h; path = MAMapKit.framework/Headers/MALineDrawType.h; sourceTree = "<group>"; };
 		AF891107F80B2928886B639A99479BDE /* MAMultiPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPoint.h; path = MAMapKit.framework/Headers/MAMultiPoint.h; sourceTree = "<group>"; };
 		B1D369D74EA7782C9D124B537BE055BA /* MACustomBuildingOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACustomBuildingOverlayRenderer.h; path = MAMapKit.framework/Headers/MACustomBuildingOverlayRenderer.h; sourceTree = "<group>"; };
+		B30DBB2DD82FD8E0E960B6AE753587C8 /* MoreMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MoreMenuView.h; sourceTree = "<group>"; };
 		B50012265950A8DFBDD71C39DFA9FF2B /* MATraceLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATraceLocation.h; path = MAMapKit.framework/Headers/MATraceLocation.h; sourceTree = "<group>"; };
 		B89DBDF1A8A6994F6B85E1F1CF89B669 /* MAShape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAShape.h; path = MAMapKit.framework/Headers/MAShape.h; sourceTree = "<group>"; };
-		B8FAB2D7891A3C0DB5D7E29F6314D288 /* libLocationManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLocationManager.a; path = XVIEWAMapManager/Classes/XVIEWLocationManager/libLocationManager.a; sourceTree = "<group>"; };
 		B9532056BB72EA6BE4AD51CEFC4E89B8 /* MAMapStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapStatus.h; path = MAMapKit.framework/Headers/MAMapStatus.h; sourceTree = "<group>"; };
 		BEF98D3CD8631F3959C099B846F8EAFF /* AMapGeoFenceRegionObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapGeoFenceRegionObj.h; path = AMapLocationKit.framework/Headers/AMapGeoFenceRegionObj.h; sourceTree = "<group>"; };
 		C313B4432A735042CCA3E4726BBB0D65 /* AMapNaviDriveView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviDriveView.h; path = AMapNaviKit.framework/Headers/AMapNaviDriveView.h; sourceTree = "<group>"; };
 		C6E657EF1E251A81733AD12510A82772 /* MACustomBuildingOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACustomBuildingOverlay.h; path = MAMapKit.framework/Headers/MACustomBuildingOverlay.h; sourceTree = "<group>"; };
 		C7D6A933926F582E7C202F95D853D41D /* MAMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapView.h; path = MAMapKit.framework/Headers/MAMapView.h; sourceTree = "<group>"; };
-		CA279FCB6E32C2C5B30D584959508899 /* XVIEWNaviManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWNaviManager.h; path = XVIEWAMapManager/Classes/XVIEWNaviManager/XVIEWNaviManager.h; sourceTree = "<group>"; };
 		CACD8173597442563383AD9266015904 /* AMapNaviDriveDataRepresentable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviDriveDataRepresentable.h; path = AMapNaviKit.framework/Headers/AMapNaviDriveDataRepresentable.h; sourceTree = "<group>"; };
+		CB57A171AC6F6CE7C60FC7E0A8018BBA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CC23A716A5CB1DFBE975B776549FED0B /* AMapNaviBaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviBaseManager.h; path = AMapNaviKit.framework/Headers/AMapNaviBaseManager.h; sourceTree = "<group>"; };
 		CCD40BA4579F38E6419B983698A8112D /* AMapNaviRideView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviRideView.h; path = AMapNaviKit.framework/Headers/AMapNaviRideView.h; sourceTree = "<group>"; };
 		CDC63839459874B8CB46972F91271A19 /* Pods-XVIEWAMapManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWAMapManager_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -143,21 +145,19 @@
 		E21A7CF66B4FB8F4103AB64797D84505 /* AMapNavi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AMapNavi.bundle; path = AMapNaviKit.framework/AMapNavi.bundle; sourceTree = "<group>"; };
 		E5A0EF7836EB3C841D5F6865E55F0B82 /* Pods-XVIEWAMapManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWAMapManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E67293056800E8348B174E713054A214 /* MAPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolyline.h; path = MAMapKit.framework/Headers/MAPolyline.h; sourceTree = "<group>"; };
-		E6CA9048A0B4D962E10DC795A9833EE1 /* XVIEWAMapManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWAMapManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E7082645AA68CCC578712D7EACE8ADC5 /* AMapNaviWalkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviWalkManager.h; path = AMapNaviKit.framework/Headers/AMapNaviWalkManager.h; sourceTree = "<group>"; };
 		E7856DB24BB88B8C612597943C67B049 /* MAOfflineProvince.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineProvince.h; path = MAMapKit.framework/Headers/MAOfflineProvince.h; sourceTree = "<group>"; };
 		E84A4AAA81269AC542461CA026C45239 /* AMapServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapServices.h; path = AMapFoundationKit.framework/Headers/AMapServices.h; sourceTree = "<group>"; };
 		E881914C24EA8418C49A0598A275CD92 /* MAPointAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPointAnnotation.h; path = MAMapKit.framework/Headers/MAPointAnnotation.h; sourceTree = "<group>"; };
 		E8F111E4D5E079DBE7BD5D14E4BCB501 /* AMapNaviHeaderHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviHeaderHandler.h; path = AMapNaviKit.framework/Headers/AMapNaviHeaderHandler.h; sourceTree = "<group>"; };
+		EF0D8D54B8AC2347CE37B63F71669596 /* libNaviManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libNaviManager.a; path = XVIEWAMapManager/Classes/XVIEWNaviManager/libNaviManager.a; sourceTree = "<group>"; };
 		F035F2048CEB833229EF0F01DA2834B3 /* AMapNaviTrafficBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviTrafficBarView.h; path = AMapNaviKit.framework/Headers/AMapNaviTrafficBarView.h; sourceTree = "<group>"; };
-		F09AAFC0A4B0BEDCB447898056015A5E /* SpeechSynthesizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpeechSynthesizer.h; path = XVIEWAMapManager/Classes/XVIEWNaviManager/SpeechSynthesizer.h; sourceTree = "<group>"; };
 		F0BE5EDE13DF7C7ED2CDFB099C83E695 /* AMapURLSearchConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearchConfig.h; path = AMapFoundationKit.framework/Headers/AMapURLSearchConfig.h; sourceTree = "<group>"; };
-		F1367662E7E47A16FA710BC00D1A4A61 /* libNaviManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libNaviManager.a; path = XVIEWAMapManager/Classes/XVIEWNaviManager/libNaviManager.a; sourceTree = "<group>"; };
+		F1298184098EF3F22102BC77EEB7F8B3 /* XVIEWLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XVIEWLocationManager.h; sourceTree = "<group>"; };
 		F229BEA88C263AED1FEC2693E5D38FC4 /* MAMapAccessibilityIdentifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapAccessibilityIdentifier.h; path = MAMapKit.framework/Headers/MAMapAccessibilityIdentifier.h; sourceTree = "<group>"; };
 		F2BACDC197419417C5A8720623DACA15 /* AMapNaviRideManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviRideManager.h; path = AMapNaviKit.framework/Headers/AMapNaviRideManager.h; sourceTree = "<group>"; };
 		F40D7922F1D53300399F57027F2917B4 /* MAAnimatedAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnimatedAnnotation.h; path = MAMapKit.framework/Headers/MAAnimatedAnnotation.h; sourceTree = "<group>"; };
 		F548D4F3D79A7F7575BC526166886929 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6ABD87F2655B7531F7671DB8770A85D /* MoreMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoreMenuView.h; path = XVIEWAMapManager/Classes/XVIEWNaviManager/MoreMenuView.h; sourceTree = "<group>"; };
 		FB67566FE94FF26C73FEE6FA5FEE80E8 /* MAPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolygon.h; path = MAMapKit.framework/Headers/MAPolygon.h; sourceTree = "<group>"; };
 		FC9FA09A213443DDFDDEC71CFA2E10FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCA73D9EB363ACA4A4DFDA35DD5E4ED8 /* AMapNaviCompositeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviCompositeManager.h; path = AMapNaviKit.framework/Headers/AMapNaviCompositeManager.h; sourceTree = "<group>"; };
@@ -190,6 +190,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01D0B34987E6C8F33BFE42D4FB7E4EA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D4CB8ACEB3E2604178123B51CFC8FAE /* libLocationManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		19B0DF7CB5AE7C9C2E6366F6C5C5DAE3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,20 +214,14 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		23797B30CCE57DA588F7BBAAAEA788ED /* Frameworks */ = {
+		345D228BF8DF9683009F7244EBEF1013 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AD3944EFB42AB4EE51D564AEABBF3A11 /* libAMapManager.a */,
+				CB57A171AC6F6CE7C60FC7E0A8018BBA /* LICENSE */,
+				1D0B6F0FFB9CB3BE278C891569DFA7C1 /* README.md */,
+				37E20180C7B426EA50640B2D2951BA93 /* XVIEWAMapManager.podspec */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		26C1A2AD15D9C6022C6FC083A1018225 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F1367662E7E47A16FA710BC00D1A4A61 /* libNaviManager.a */,
-			);
-			name = Frameworks;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4BD920512D0D253E78A1387FF3D18CD1 /* Pods-XVIEWAMapManager_Example */ = {
@@ -279,7 +281,7 @@
 		5B8B6787B39D071D7F778D7BCD1B0944 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A0B60B94FCB1AB90503B94AA471CAF02 /* XVIEWAMapManager */,
+				BAF7FC12989E4E61C73C6E4FD631C0E2 /* XVIEWAMapManager */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -298,6 +300,18 @@
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F8B42E0DDAD3332E8B074211871FE6F /* XVIEWNaviManager */ = {
+			isa = PBXGroup;
+			children = (
+				245EDA396D7721EC5AAF0A9370EEE527 /* GPSNaviViewController.h */,
+				B30DBB2DD82FD8E0E960B6AE753587C8 /* MoreMenuView.h */,
+				58136E3F6AF63DD707AC420B49E60BF1 /* SpeechSynthesizer.h */,
+				6F7A850913817F816D0468D77F737CC3 /* XVIEWNaviManager.h */,
+			);
+			name = XVIEWNaviManager;
+			path = XVIEWAMapManager/Classes/XVIEWNaviManager;
 			sourceTree = "<group>";
 		};
 		6A5AC62E1A94AC851B62599E97A9AF15 /* Products */ = {
@@ -372,35 +386,31 @@
 			path = AMapNavi;
 			sourceTree = "<group>";
 		};
-		8F3369AFB4BE9AD7F13E993ED21A86DE /* XVIEWLocationManager */ = {
+		841179950CE4F0C4071DEC6372BF323A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AE4196F5DEDB5D2D53CFB46FBA6DF2AE /* XVIEWLocationManager.h */,
-				F6E6F8B9D1647C02AFD6B9AC037721E7 /* Frameworks */,
+				3187BB8221B011C15051ECF7A7125F33 /* libAMapManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9213054CB1AD0924BCDA0C26C40B71C8 /* XVIEWLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				01D0B34987E6C8F33BFE42D4FB7E4EA4 /* Frameworks */,
+				D761BACFD52322926BACE3082EADCCB2 /* XVIEWLocationManager */,
 			);
 			name = XVIEWLocationManager;
 			sourceTree = "<group>";
 		};
-		A07A96C7D0187488053BC26259CBC8EC /* XVIEWNaviManager */ = {
+		BAF7FC12989E4E61C73C6E4FD631C0E2 /* XVIEWAMapManager */ = {
 			isa = PBXGroup;
 			children = (
-				5AFCA401B914BBB57697897F39900F49 /* GPSNaviViewController.h */,
-				F6ABD87F2655B7531F7671DB8770A85D /* MoreMenuView.h */,
-				F09AAFC0A4B0BEDCB447898056015A5E /* SpeechSynthesizer.h */,
-				CA279FCB6E32C2C5B30D584959508899 /* XVIEWNaviManager.h */,
-				26C1A2AD15D9C6022C6FC083A1018225 /* Frameworks */,
-			);
-			name = XVIEWNaviManager;
-			sourceTree = "<group>";
-		};
-		A0B60B94FCB1AB90503B94AA471CAF02 /* XVIEWAMapManager */ = {
-			isa = PBXGroup;
-			children = (
-				2F224D2A812673601FDE71126619E6B1 /* XVIEWAMapManager.h */,
-				23797B30CCE57DA588F7BBAAAEA788ED /* Frameworks */,
-				F418A901029E34D7B3B6066C64F6F0E3 /* Pod */,
-				8F3369AFB4BE9AD7F13E993ED21A86DE /* XVIEWLocationManager */,
-				A07A96C7D0187488053BC26259CBC8EC /* XVIEWNaviManager */,
+				317A8CE42411665BA86C232610567704 /* XVIEWAMapManager.h */,
+				841179950CE4F0C4071DEC6372BF323A /* Frameworks */,
+				345D228BF8DF9683009F7244EBEF1013 /* Pod */,
+				9213054CB1AD0924BCDA0C26C40B71C8 /* XVIEWLocationManager */,
+				F49403866E29C60B9BD724F74136A94D /* XVIEWNaviManager */,
 			);
 			name = XVIEWAMapManager;
 			path = ../..;
@@ -422,6 +432,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CD727971F95D572344EA18F59A38DA76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0D8D54B8AC2347CE37B63F71669596 /* libNaviManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEDE993EA102D10606EB55A5DC616FEC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -429,6 +447,15 @@
 				7C2D1EF4F51927CE90D76702F637C1DC /* Pods-XVIEWAMapManager_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D761BACFD52322926BACE3082EADCCB2 /* XVIEWLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				F1298184098EF3F22102BC77EEB7F8B3 /* XVIEWLocationManager.h */,
+			);
+			name = XVIEWLocationManager;
+			path = XVIEWAMapManager/Classes/XVIEWLocationManager;
 			sourceTree = "<group>";
 		};
 		D9FA8146870A7C0F9D0D651FF6DE91F7 /* Pods */ = {
@@ -519,22 +546,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F418A901029E34D7B3B6066C64F6F0E3 /* Pod */ = {
+		F49403866E29C60B9BD724F74136A94D /* XVIEWNaviManager */ = {
 			isa = PBXGroup;
 			children = (
-				499D36DD76D56FC4A27D8A7EC957599F /* LICENSE */,
-				531A08AAF5F3842103F1C2D68BBD815E /* README.md */,
-				E6CA9048A0B4D962E10DC795A9833EE1 /* XVIEWAMapManager.podspec */,
+				CD727971F95D572344EA18F59A38DA76 /* Frameworks */,
+				5F8B42E0DDAD3332E8B074211871FE6F /* XVIEWNaviManager */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F6E6F8B9D1647C02AFD6B9AC037721E7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B8FAB2D7891A3C0DB5D7E29F6314D288 /* libLocationManager.a */,
-			);
-			name = Frameworks;
+			name = XVIEWNaviManager;
 			sourceTree = "<group>";
 		};
 		F72991144F1C534BFEE9E2DDBF024812 /* Resources */ = {

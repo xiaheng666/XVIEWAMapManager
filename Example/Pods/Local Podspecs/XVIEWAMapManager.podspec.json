@@ -1,6 +1,6 @@
 {
   "name": "XVIEWAMapManager",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "高德地图相关，定位以及导航",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWAMapManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWAMapManager.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
@@ -25,9 +25,15 @@
   "subspecs": [
     {
       "name": "XVIEWLocationManager",
-      "source_files": "XVIEWAMapManager/Classes/XVIEWLocationManager/*.h",
+      "source_files": [
+        "XVIEWAMapManager/Classes/XVIEWLocationManager/*.h",
+        "XVIEWAMapManager/Classes/*.h"
+      ],
       "ios": {
-        "vendored_libraries": "XVIEWAMapManager/Classes/XVIEWLocationManager/*.a"
+        "vendored_libraries": [
+          "XVIEWAMapManager/Classes/XVIEWLocationManager/*.a",
+          "XVIEWAMapManager/Classes/*.a"
+        ]
       },
       "dependencies": {
         "AMapLocation": [
@@ -37,9 +43,15 @@
     },
     {
       "name": "XVIEWNaviManager",
-      "source_files": "XVIEWAMapManager/Classes/XVIEWNaviManager/*.h",
+      "source_files": [
+        "XVIEWAMapManager/Classes/XVIEWNaviManager/*.h",
+        "XVIEWAMapManager/Classes/*.h"
+      ],
       "ios": {
-        "vendored_libraries": "XVIEWAMapManager/Classes/XVIEWNaviManager/*.a"
+        "vendored_libraries": [
+          "XVIEWAMapManager/Classes/XVIEWNaviManager/*.a",
+          "XVIEWAMapManager/Classes/*.a"
+        ]
       },
       "dependencies": {
         "AMapLocation": [

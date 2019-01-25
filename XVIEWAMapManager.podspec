@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWAMapManager'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = '高德地图相关，定位以及导航'
 
 # This description is used to generate tags and improve search results.
@@ -42,13 +42,13 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
    #二级目录
    s.subspec 'XVIEWLocationManager' do |ss|
-       ss.source_files = 'XVIEWAMapManager/Classes/XVIEWLocationManager/*.h'
-       ss.ios.vendored_libraries = 'XVIEWAMapManager/Classes/XVIEWLocationManager/*.a'
+       ss.source_files = 'XVIEWAMapManager/Classes/XVIEWLocationManager/*.h','XVIEWAMapManager/Classes/*.h'
+       ss.ios.vendored_libraries = 'XVIEWAMapManager/Classes/XVIEWLocationManager/*.a','XVIEWAMapManager/Classes/*.a'
        ss.dependency 'AMapLocation'
    end
    s.subspec 'XVIEWNaviManager' do |sb|
-       sb.source_files = 'XVIEWAMapManager/Classes/XVIEWNaviManager/*.h'
-       sb.ios.vendored_libraries = 'XVIEWAMapManager/Classes/XVIEWNaviManager/*.a'
+       sb.source_files = 'XVIEWAMapManager/Classes/XVIEWNaviManager/*.h','XVIEWAMapManager/Classes/*.h'
+       sb.ios.vendored_libraries = 'XVIEWAMapManager/Classes/XVIEWNaviManager/*.a','XVIEWAMapManager/Classes/*.a'
        sb.dependency 'AMapLocation'
        sb.dependency 'AMap3DMap'
        sb.dependency 'AMapNavi'
