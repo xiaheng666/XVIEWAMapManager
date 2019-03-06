@@ -46,6 +46,9 @@ NS_ASSUME_NONNULL_BEGIN
 ///GPS信号强度类型, 参考 AMapNaviGPSSignalStrength . since 5.5.0
 @property (nonatomic, assign) AMapNaviGPSSignalStrength gpsSignalStrength;
 
+///默认为10,单位秒. 表示有连续的10s,GPS信号质量都比较差，就会触发GPS信号弱的回调. 值越小,就越容易触发. since 6.6.0
+@property (nonatomic, assign) NSUInteger gpsWeakDetecedInterval;
+
 ///是否使用内置语音进行导航播报, 如果为YES，就是由导航SDK来播报导航信息. 默认为NO. since 5.5.0
 @property (nonatomic, assign) BOOL isUseInternalTTS;
 

@@ -19,5 +19,8 @@
 ///设置自定义纹理文件二进制
 @property (nonatomic, strong) NSData *styleTextureData;
 
+///样式额外的配置，比如路况，背景颜色等  since 6.7.0
+@property (nonatomic, strong) NSData *styleExtraData;
+
 @end
 

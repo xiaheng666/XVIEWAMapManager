@@ -92,10 +92,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)selectNaviRouteWithRouteID:(NSInteger)routeID;
 
 /**
- * @brief 切换平行道路. 无网环境下调用此方法无任何效果. 该方法需要配合 AMapNaviDriveDataRepresentable 的 driveManager:updateParallelRoadStatus: 回调使用. since 5.3.0
- * @param parallelRoad 该参数为预留参数,目前无效果,传入nil即可.
+ * @brief 切换平行道路, 包括主辅路切换、高架上下切换. 该方法需要配合 AMapNaviDriveDataRepresentable 的 driveManager:updateParallelRoadStatus: 回调使用. since 5.3.0
+ * @param parallelRoad 平行路切换信息，参考 AMapNaviParallelRoadInfo.
  */
-- (void)switchParallelRoad:(nullable id)parallelRoad;
+- (void)switchParallelRoad:(AMapNaviParallelRoadInfo *)parallelRoadInfo;
 
 /**
  * @brief 设置多路线导航模式(GPS导航中拥有若干条备选路线供用户选择), 或单路线导航模式(默认模式). 注意: 1、设置的导航模式会在下一次主动路径规划时生效, 导航中设置无效, 建议在 AMapNaviDriveManager 单例初始化时就进行设置. 2、多路线导航模式还需同时满足以下4个条件才能够生效：a.路径规划时 AMapNaviDrivingStrategy 需选用多路径策略; b.起终点的直线距离需<=80KM; c.不能有途径点; d.车辆不能是货车类型. since 6.3.0
@@ -129,7 +129,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @brief 不带起点的驾车路径规划
  * @param endPoints    终点坐标.终点列表的尾点为实际导航终点.
  * @param wayPoints    途经点坐标,最多支持16个途经点. 超过16个会取前16个.
- * @param strategy     路径的计算策略
+ * @param strategy     路径的计算策略，建议使用 AMapNaviDrivingStrategyMultipleDefault，与[高德地图]默认策略一致 (避让拥堵+速度优先+避免收费)
  * @return 规划路径所需条件和参数校验是否成功，不代表算路成功与否
  */
 - (BOOL)calculateDriveRouteWithEndPoints:(NSArray<AMapNaviPoint *> *)endPoints
@@ -141,7 +141,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param startPoints  起点坐标.起点列表的尾点为实际导航起点,其他坐标点为辅助信息,带有方向性,可有效避免算路到马路的另一侧.
  * @param endPoints    终点坐标.终点列表的尾点为实际导航终点,其他坐标点为辅助信息,带有方向性,可有效避免算路到马路的另一侧.
  * @param wayPoints    途经点坐标,最多支持16个途经点. 超过16个会取前16个
- * @param strategy     路径的计算策略
+ * @param strategy     路径的计算策略，建议使用 AMapNaviDrivingStrategyMultipleDefault，与[高德地图]默认策略一致 (避让拥堵+速度优先+避免收费)
  * @return 规划路径所需条件和参数校验是否成功，不代表算路成功与否
  */
 - (BOOL)calculateDriveRouteWithStartPoints:(NSArray<AMapNaviPoint *> *)startPoints
@@ -154,7 +154,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param startPOIId  起点POIId,如果以“我的位置”作为起点,请传nil
  * @param endPOIId    终点POIId,必填
  * @param wayPOIIds   途经点POIId,最多支持16个途经点. 超过16个会取前16个
- * @param strategy    路径的计算策略
+ * @param strategy    路径的计算策略，建议使用 AMapNaviDrivingStrategyMultipleDefault，与[高德地图]默认策略一致 (避让拥堵+速度优先+避免收费)
  * @return 规划路径所需条件和参数校验是否成功，不代表算路成功与否
  */
 - (BOOL)calculateDriveRouteWithStartPointPOIId:(nullable NSString *)startPOIId
@@ -166,7 +166,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param startPOIInfo  起点POIInfo,参考 AMapNaviPOIInfo. 如果以“我的位置”作为起点,请传nil. 如果startPOIInfo不为nil,那么POIID合法,优先使用ID参与算路,否则使用坐标点.
  * @param endPOIInfo    终点POIInfo,参考 AMapNaviPOIInfo. 如果POIID合法,优先使用ID参与算路,否则使用坐标点. 注意:POIID和坐标点不能同时为空
  * @param wayPOIInfos   途经点POIInfo,最多支持16个途经点,超过16个会取前16个. 如果POIID合法,优先使用ID参与算路,否则使用坐标点. 注意:POIID和坐标点不能同时为空
- * @param strategy      路径的计算策略
+ * @param strategy      路径的计算策略，建议使用 AMapNaviDrivingStrategyMultipleDefault，与[高德地图]默认策略一致 (避让拥堵+速度优先+避免收费)
  * @return 规划路径所需条件和参数校验是否成功，不代表算路成功与否
  */
 - (BOOL)calculateDriveRouteWithStartPOIInfo:(nullable AMapNaviPOIInfo *)startPOIInfo
@@ -176,7 +176,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  * @brief 导航过程中重新规划路径(起点为当前位置,途经点和终点位置不变)
- * @param strategy 路径的计算策略
+ * @param strategy 路径的计算策略，建议使用 AMapNaviDrivingStrategyMultipleDefault，与[高德地图]默认策略一致 (避让拥堵+速度优先+避免收费)
  * @return 重新规划路径所需条件和参数校验是否成功, 不代表算路成功与否, 如非导航状态下调用此方法会返回NO.
  */
 - (BOOL)recalculateDriveRouteWithDrivingStrategy:(AMapNaviDrivingStrategy)strategy;

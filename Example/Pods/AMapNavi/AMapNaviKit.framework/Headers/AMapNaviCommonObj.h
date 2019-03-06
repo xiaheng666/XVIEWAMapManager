@@ -42,31 +42,31 @@ typedef NS_ENUM(NSInteger, AMapNaviDriveViewShowMode)
     AMapNaviDriveViewShowModeNormal = 3,            ///< 普通状态
 };
 
-///驾车路径规划策略
+///驾车、货车路径规划策略. 注意:货车只能用10、12-20 这10种策略
 typedef NS_ENUM(NSInteger, AMapNaviDrivingStrategy)
 {
-    AMapNaviDrivingStrategySingleDefault = 0,                               ///< 0 单路径: 默认,速度优先(常规最快)
-    AMapNaviDrivingStrategySingleAvoidCost = 1,                             ///< 1 单路径: 避免收费
-    AMapNaviDrivingStrategySinglePrioritiseDistance = 2,                    ///< 2 单路径: 距离优先
-    AMapNaviDrivingStrategySingleAvoidExpressway = 3,                       ///< 3 单路径: 不走快速路
-    AMapNaviDrivingStrategySingleAvoidCongestion = 4,                       ///< 4 单路径: 躲避拥堵
-    AMapNaviDrivingStrategySinglePrioritiseSpeedCostDistance = 5,           ///< 5 单路径: 速度优先 & 费用优先 & 距离优先
-    AMapNaviDrivingStrategySingleAvoidHighway = 6,                          ///< 6 单路径: 不走高速
-    AMapNaviDrivingStrategySingleAvoidHighwayAndCost = 7,                   ///< 7 单路径: 不走高速 & 避免收费
-    AMapNaviDrivingStrategySingleAvoidCostAndCongestion = 8,                ///< 8 单路径: 避免收费 & 躲避拥堵
-    AMapNaviDrivingStrategySingleAvoidHighwayAndCostAndCongestion = 9,      ///< 9 单路径: 不走高速 & 避免收费 & 躲避拥堵
+    AMapNaviDrivingStrategySingleDefault = 0,                               ///< 0 针对驾车 - 单路径: 默认,速度优先(常规最快)
+    AMapNaviDrivingStrategySingleAvoidCost = 1,                             ///< 1 针对驾车 - 单路径: 避免收费
+    AMapNaviDrivingStrategySinglePrioritiseDistance = 2,                    ///< 2 针对驾车 - 单路径: 距离优先
+    AMapNaviDrivingStrategySingleAvoidExpressway = 3,                       ///< 3 针对驾车 - 单路径: 不走快速路
+    AMapNaviDrivingStrategySingleAvoidCongestion = 4,                       ///< 4 针对驾车 - 单路径: 躲避拥堵
+    AMapNaviDrivingStrategySinglePrioritiseSpeedCostDistance = 5,           ///< 5 针对驾车 - 单路径: 速度优先 & 费用优先 & 距离优先
+    AMapNaviDrivingStrategySingleAvoidHighway = 6,                          ///< 6 针对驾车 - 单路径: 不走高速
+    AMapNaviDrivingStrategySingleAvoidHighwayAndCost = 7,                   ///< 7 针对驾车 - 单路径: 不走高速 & 避免收费
+    AMapNaviDrivingStrategySingleAvoidCostAndCongestion = 8,                ///< 8 针对驾车 - 单路径: 避免收费 & 躲避拥堵
+    AMapNaviDrivingStrategySingleAvoidHighwayAndCostAndCongestion = 9,      ///< 9 针对驾车 - 单路径: 不走高速 & 避免收费 & 躲避拥堵
     
-    AMapNaviDrivingStrategyMultipleDefault = 10,                            ///< 10 多路径: 默认,速度优先(常规最快)
-    AMapNaviDrivingStrategyMultipleShortestTimeDistance = 11,               ///< 11 多路径: 时间最短 & 距离最短
-    AMapNaviDrivingStrategyMultipleAvoidCongestion = 12,                    ///< 12 多路径: 躲避拥堵
-    AMapNaviDrivingStrategyMultipleAvoidHighway = 13,                       ///< 13 多路径: 不走高速
-    AMapNaviDrivingStrategyMultipleAvoidCost = 14,                          ///< 14 多路径: 避免收费
-    AMapNaviDrivingStrategyMultipleAvoidHighwayAndCongestion = 15,          ///< 15 多路径: 不走高速 & 躲避拥堵
-    AMapNaviDrivingStrategyMultipleAvoidHighwayAndCost = 16,                ///< 16 多路径: 不走高速 & 避免收费
-    AMapNaviDrivingStrategyMultipleAvoidCostAndCongestion = 17,             ///< 17 多路径: 避免收费 & 躲避拥堵
-    AMapNaviDrivingStrategyMultipleAvoidHighwayAndCostAndCongestion = 18,   ///< 18 多路径: 不走高速 & 避免收费 & 躲避拥堵
-    AMapNaviDrivingStrategyMultiplePrioritiseHighway = 19,                  ///< 19 多路径: 高速优先
-    AMapNaviDrivingStrategyMultiplePrioritiseHighwayAvoidCongestion = 20,   ///< 20 多路径: 高速优先 & 躲避拥堵
+    AMapNaviDrivingStrategyMultipleDefault = 10,                            ///< 10 针对驾车、货车 -  多路径: 默认,速度优先(避让拥堵+速度优先+避免收费)
+    AMapNaviDrivingStrategyMultipleShortestTimeDistance = 11,               ///< 11 针对驾车      -  多路径: 时间最短 & 距离最短
+    AMapNaviDrivingStrategyMultipleAvoidCongestion = 12,                    ///< 12 针对驾车、货车 -  多路径: 躲避拥堵
+    AMapNaviDrivingStrategyMultipleAvoidHighway = 13,                       ///< 13 针对驾车、货车 -  多路径: 不走高速
+    AMapNaviDrivingStrategyMultipleAvoidCost = 14,                          ///< 14 针对驾车、货车 -  多路径: 避免收费
+    AMapNaviDrivingStrategyMultipleAvoidHighwayAndCongestion = 15,          ///< 15 针对驾车、货车 -  多路径: 不走高速 & 躲避拥堵
+    AMapNaviDrivingStrategyMultipleAvoidHighwayAndCost = 16,                ///< 16 针对驾车、货车 -  多路径: 不走高速 & 避免收费
+    AMapNaviDrivingStrategyMultipleAvoidCostAndCongestion = 17,             ///< 17 针对驾车、货车 -  多路径: 避免收费 & 躲避拥堵
+    AMapNaviDrivingStrategyMultipleAvoidHighwayAndCostAndCongestion = 18,   ///< 18 针对驾车、货车 -  多路径: 不走高速 & 避免收费 & 躲避拥堵
+    AMapNaviDrivingStrategyMultiplePrioritiseHighway = 19,                  ///< 19 针对驾车、货车 -  多路径: 高速优先
+    AMapNaviDrivingStrategyMultiplePrioritiseHighwayAvoidCongestion = 20,   ///< 20 针对驾车、货车 -  多路径: 高速优先 & 躲避拥堵
     
     ///Deprecated
     AMapNaviDrivingStrategyDefault __attribute__ ((deprecated("use AMapNaviDrivingStrategySingleDefault instead"))) = AMapNaviDrivingStrategySingleDefault ,
@@ -259,12 +259,20 @@ typedef NS_ENUM(NSInteger, AMapNaviRoutePlanPOIType)
     AMapNaviRoutePlanPOITypeWay,                    ///< 2 途径点
 };
 
-///可切换到的平行路类型 since 5.3.0
+///可切换到的主辅路类型 since 5.3.0
 typedef NS_ENUM(NSInteger, AMapNaviParallelRoadStatusFlag)
 {
     AMapNaviParallelRoadStatusFlagNone = 0,         ///< 0 无主辅路可切换
     AMapNaviParallelRoadStatusFlagAssist = 1,       ///< 1 可切换到辅路
     AMapNaviParallelRoadStatusFlagMain = 2,         ///< 2 可切换到主路
+};
+
+///可切换到的高架上下类型 since 6.6.0
+typedef NS_ENUM(NSInteger, AMapNaviElevatedRoadStatusFlag)
+{
+    AMapNaviElevatedRoadStatusFlagNone = 0,         ///< 0 无高架可切换
+    AMapNaviElevatedRoadStatusFlagUnder = 1,        ///< 1 可切换到高架下
+    AMapNaviElevatedRoadStatusFlagUp = 2,           ///< 2 可切换到高架上
 };
 
 ///导航组件主题皮肤类型 since 5.4.0
@@ -315,6 +323,7 @@ typedef NS_ENUM(NSInteger, AMapNaviRoutePlanType)
     AMapNaviRoutePlanTypeLimitForbid = 11,          ///< 11 限时禁行引起的重算(在线)
     AMapNaviRoutePlanTypeManualRefresh = 12,        ///< 12 手动刷新
     AMapNaviRoutePlanTypeMutiRouteRequest = 14,     ///< 14 导航中请求备选路线
+    AMapNaviRoutePlanTypeDispatch = 16,             ///< 16 交警调度请求路线
 };
 
 ///自车位置和区间测速电子眼路段的位置关系 since 6.0.0
@@ -706,10 +715,13 @@ FOUNDATION_EXTERN AMapNaviDrivingStrategy ConvertDrivingPreferenceToDrivingStrat
 ///平行路状态信息 since 5.3.0
 @interface AMapNaviParallelRoadStatus : NSObject
 
-///主辅路标识(存在平行路时,可切换到的平行路类型)
+///主辅路标识(存在主辅路时,可切换到的主辅路类型)
 @property (nonatomic, assign) AMapNaviParallelRoadStatusFlag flag;
 
-///切换状态: 0:非平行路切换过程中; 1:处于平行路切换过程之中(此时不可以进行平行路切换操作);
+///高架上下标识(存在高架时,可切换到的高架上下类型) since 6.6.0
+@property (nonatomic, assign) AMapNaviElevatedRoadStatusFlag hwFlag;
+
+///道路切换状态: 0:非平行路切换过程中; 1:处于平行路切换过程之中(此时不可以进行平行路切换操作);
 @property (nonatomic, assign) NSInteger status;
 
 @end
@@ -936,5 +948,19 @@ FOUNDATION_EXTERN AMapNaviDrivingStrategy ConvertDrivingPreferenceToDrivingStrat
 ///POI的坐标点
 @property (nonatomic, strong) AMapNaviPoint *locPoint;
 
+///车头方向角度, 默认为-1, 0为正北, 顺时针方向增加. 注意：mid == nil && locPoint != nil && startAngle >=0 才起作用. since 6.6.0
+@property (nonatomic, assign) double startAngle;
+
 @end
+
+#pragma mark - AMapNaviParallelRoadInfo
+
+///平行路切换信息 since 6.6.0
+@interface AMapNaviParallelRoadInfo : NSObject
+
+///切换类型, 1:主辅路切换; 2:高架桥上下切换
+@property (nonatomic, assign) NSInteger type;
+
+@end
+
 

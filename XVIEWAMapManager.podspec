@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWAMapManager'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = '高德地图相关，定位以及导航'
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'XVIEWAMapManager/Classes/*.h'
   s.ios.vendored_libraries = 'XVIEWAMapManager/Classes/*.a'
+  
+  #s.default_subspec = 'XVIEWLocationManager'
   #s.source_files = 'XVIEWAMapManager/Classes/**/*'
   
   # s.resource_bundles = {

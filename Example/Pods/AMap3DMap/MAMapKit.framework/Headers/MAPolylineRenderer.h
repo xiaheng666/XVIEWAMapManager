@@ -17,6 +17,12 @@
 ///关联的MAPolyline model
 @property (nonatomic, readonly) MAPolyline *polyline;
 
+///设置是否显示3d箭头线, 默认为NO。如果设置为YES，则为3d箭头线。since 6.7.0
+@property (nonatomic, assign) BOOL is3DArrowLine;
+
+///设置为立体3d箭头的侧边颜色（当is3DArrowLine为YES时有效)顶部颜色使用strokeColor。since 6.7.0
+@property (nonatomic, strong) UIColor *sideColor;
+
 /**
  * @brief 根据指定的MAPolyline生成一个多段线Renderer
  * @param polyline 指定MAPolyline

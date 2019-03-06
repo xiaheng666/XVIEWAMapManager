@@ -16,9 +16,8 @@
 + (instancetype)sharedNaviManager;
 
 /**
- *  导航
+ *  步行导航
  @param param   data {
- *              type:driving/riding/walking(可选)    驾车/骑行/步行(默认驾车)
  *              endLatitude:终点经度,(必填)
  *              endLongitude:终点纬度,(必填)
  *              startLatitude:起点经度,(可选,不传默认定位当前位置)
@@ -26,6 +25,30 @@
  *              }
  *              callback回调方法
  */
-- (void)navi:(NSDictionary *)param;
+- (void)walk:(NSDictionary *)param;
+
+/**
+ *  驾车导航
+ @param param   data {
+ *              endLatitude:终点经度,(必填)
+ *              endLongitude:终点纬度,(必填)
+ *              startLatitude:起点经度,(可选,不传默认定位当前位置)
+ *              startLongitude:起点纬度(可选,不传默认定位当前位置)
+ *              }
+ *              callback回调方法
+ */
+- (void)drive:(NSDictionary *)param;
+
+/**
+ *  骑行导航
+ @param param   data {
+ *              endLatitude:终点经度,(必填)
+ *              endLongitude:终点纬度,(必填)
+ *              startLatitude:起点经度,(可选,不传默认定位当前位置)
+ *              startLongitude:起点纬度(可选,不传默认定位当前位置)
+ *              }
+ *              callback回调方法
+ */
+- (void)ride:(NSDictionary *)param;
 
 @end

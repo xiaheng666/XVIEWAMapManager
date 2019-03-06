@@ -109,4 +109,10 @@
  */
 - (BOOL)setOnlineCarHailingType:(AMapNaviOnlineCarHailingType)type;
 
+/**
+ * @brief 设置地图是否展示实时路况. since 6.6.0
+ * @param need 是否显示，默认为YES.
+ */
+- (void)setMapShowTraffic:(BOOL)need;
+
 @end

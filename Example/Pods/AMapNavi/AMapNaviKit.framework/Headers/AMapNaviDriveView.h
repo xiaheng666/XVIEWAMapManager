@@ -78,20 +78,26 @@ NS_ASSUME_NONNULL_BEGIN
 ///当前地图是否开启自定义样式, 默认NO. 设置为YES，将忽略showStandardNightType的设置，并将mapType切换为MAMapTypeStandard. 设置为NO，将根据showStandardNightType恢复mapType. since 5.1.0
 @property (nonatomic, assign) BOOL customMapStyleEnabled;
 
-///当前地图最大帧数，有效的帧数为：60、30、20、10等能被60整除的数。默认为30
+///当前地图最大帧数，有效的帧数为：60、30、20、10等能被60整除的数，默认为30. since 6.5.0
 @property (nonatomic, assign) NSUInteger maxRenderFrame;
 
 /**
- * @brief 自定义当前地图样式, 目前仅支持自定义标准类型. 已废弃, 请使用 setCustomMapStyleWithWebData: since 6.2.0
+ * @brief 自定义当前地图样式, 目前仅支持自定义标准类型. 已废弃, 请使用 setCustomMapStyleOptions: since 6.6.0
  * @param customJson 自定义的JSON格式数据.
  */
-- (void)setCustomMapStyle:(NSData *)customJson __attribute((deprecated("已废弃, 请使用 setCustomMapStyleWithWebData: since 6.2.0")));
+- (void)setCustomMapStyle:(NSData *)customJson __attribute((deprecated("已废弃, 请使用 setCustomMapStyleOptions: since 6.6.0")));
 
 /**
  * @brief 根据web导出数据设置地图样式, 目前仅支持自定义标准类型. 默认不生效，调用customMapStyleEnabled=YES使生效. since 5.1.0
  * @param data 高德web端工具导出的地图样式数据.
  */
-- (void)setCustomMapStyleWithWebData:(NSData*)data;
+- (void)setCustomMapStyleWithWebData:(NSData*)data __attribute((deprecated("已废弃, 请使用 setCustomMapStyleOptions: since 6.6.0")));
+
+/**
+ * @brief 自定义地图样式设置,可以支持分级样式配置，如控制不同级别显示不同的颜色(自6.6.0开始使用新版样式，旧版样式无法在新版接口setCustomMapStyleOptions:(MAMapCustomStyleOptions *)styleOptions中使用，请到官网(lbs.amap.com)更新新版样式文件)
+ * @param StyleOptions 自定义样式options. since 6.6.0
+ */
+- (void)setCustomMapStyleOptions:(MAMapCustomStyleOptions *)styleOptions;
 
 #pragma mark - Annoation Options and Overlay Options
 
@@ -109,6 +115,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///路线上转弯箭头的宽度,设置0恢复默认宽度. since 6.2.0
 @property (nonatomic, assign) CGFloat turnArrowWidth;
+
+///路线上转弯箭头是否为3D箭头线,默认为YES. since 6.6.0
+@property (nonatomic, assign) BOOL turnArrowIs3D;
+
+///路线上转弯箭头设置3D箭头的侧边颜色（当turnArrowIs3D为YES时有效). since 6.6.0
+@property (nonatomic, strong) UIColor *turnArrowSideColor;
 
 ///是否显示牵引线,默认YES. since 6.2.0
 @property (nonatomic, assign) BOOL showVectorline;

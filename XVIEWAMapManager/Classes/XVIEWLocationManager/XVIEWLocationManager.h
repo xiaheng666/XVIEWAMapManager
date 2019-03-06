@@ -34,4 +34,10 @@
  */
 - (void) stopLocation:(NSDictionary *)param;
 
+/**
+ *  关闭发送定位
+ @param param    callback回调方法
+ */
+- (void) stopSend:(NSDictionary *)param;
+
 @end

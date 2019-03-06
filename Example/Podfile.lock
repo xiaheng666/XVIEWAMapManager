@@ -1,18 +1,18 @@
 PODS:
-  - AMap3DMap (6.6.0):
+  - AMap3DMap (6.7.0):
     - AMapFoundation (~> 1.5)
   - AMapFoundation (1.5.6)
   - AMapLocation (2.6.1):
     - AMapFoundation (~> 1.4)
-  - AMapNavi (6.5.0):
-    - AMap3DMap (~> 6.4)
+  - AMapNavi (6.6.0):
+    - AMap3DMap (~> 6.7)
     - AMapFoundation (~> 1.5)
-  - XVIEWAMapManager (0.1.5):
-    - XVIEWAMapManager/XVIEWLocationManager (= 0.1.5)
-    - XVIEWAMapManager/XVIEWNaviManager (= 0.1.5)
-  - XVIEWAMapManager/XVIEWLocationManager (0.1.5):
+  - XVIEWAMapManager (0.1.6):
+    - XVIEWAMapManager/XVIEWLocationManager (= 0.1.6)
+    - XVIEWAMapManager/XVIEWNaviManager (= 0.1.6)
+  - XVIEWAMapManager/XVIEWLocationManager (0.1.6):
     - AMapLocation
-  - XVIEWAMapManager/XVIEWNaviManager (0.1.5):
+  - XVIEWAMapManager/XVIEWNaviManager (0.1.6):
     - AMap3DMap
     - AMapLocation
     - AMapNavi
@@ -32,11 +32,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AMap3DMap: 37425c7d47420cbfaee88328be3dc3781814b999
+  AMap3DMap: 7bb992e6bfb99e34e6c7a368958dde9d743a23f1
   AMapFoundation: 20fce2a12cd152e1092afdd04379cdac21932185
   AMapLocation: cf024b53dc03663efb4ea4bcce27d4cce58bb97a
-  AMapNavi: b3084406c074bdc2f6f6e80474fa6aa80f4ec0d0
-  XVIEWAMapManager: 2f89b2769203f4ccbd460545cf9e7e3d4084000b
+  AMapNavi: 515ca62227b0cfeebdc67a4646500a41da9b6cf2
+  XVIEWAMapManager: 3326ba1c42066b87382db158630c1c3e7bf80699
 
 PODFILE CHECKSUM: f98ae45b5fd11f4cc6fb5794c40af1b023506125
 

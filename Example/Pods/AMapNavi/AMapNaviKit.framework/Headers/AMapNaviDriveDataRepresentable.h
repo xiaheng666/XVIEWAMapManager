@@ -129,7 +129,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)driveManager:(AMapNaviDriveManager *)driveManager updateServiceAreaInfos:(nullable NSArray<AMapNaviServiceAreaInfo *> *)serviceAreaInfos;
 
 /**
- * @brief 平行道路信息更新回调. 当存在平行路时(AMapNaviParallelRoadStatus.flag != AMapNaviParallelRoadStatusFlagNone),可以调用AMapNaviDriveManager的switchParallelRoad:方法进行平行路切换. since 5.3.0
+ * @brief 通知当前是否可以进行平行道路切换，包括主路、辅路以及高架桥上、高架桥下. since 5.3.0
  * @param driveManager 驾车导航管理类
  * @param parallelRoadStatus 平行道路信息,参考 AMapNaviParallelRoadStatus 类
  */

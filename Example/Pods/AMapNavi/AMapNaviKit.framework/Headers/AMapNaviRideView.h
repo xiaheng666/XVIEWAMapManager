@@ -77,16 +77,22 @@ typedef NS_ENUM(NSInteger, AMapNaviRideViewShowMode)
 @property (nonatomic, assign) BOOL customMapStyleEnabled;
 
 /**
- * @brief 自定义当前地图样式, 目前仅支持自定义标准类型. 已废弃, 请使用 setCustomMapStyleWithWebData: since 6.2.0
+ * @brief 自定义当前地图样式, 目前仅支持自定义标准类型. 已废弃, 请使用 setCustomMapStyleOptions: since 6.6.0
  * @param customJson 自定义的JSON格式数据.
  */
-- (void)setCustomMapStyle:(NSData *)customJson __attribute((deprecated("已废弃, 请使用 setCustomMapStyleWithWebData: since 6.2.0")));
+- (void)setCustomMapStyle:(NSData *)customJson __attribute((deprecated("已废弃, 请使用 setCustomMapStyleOptions: since 6.6.0")));
 
 /**
  * @brief 根据web导出数据设置地图样式, 目前仅支持自定义标准类型. 默认不生效，调用customMapStyleEnabled=YES使生效. since 6.2.0
  * @param data 高德web端工具导出的地图样式数据.
  */
-- (void)setCustomMapStyleWithWebData:(NSData*)data;
+- (void)setCustomMapStyleWithWebData:(NSData*)data __attribute((deprecated("已废弃, 请使用 setCustomMapStyleOptions: since 6.6.0")));
+
+/**
+ * @brief 自定义地图样式设置,可以支持分级样式配置，如控制不同级别显示不同的颜色(自6.6.0开始使用新版样式，旧版样式无法在新版接口setCustomMapStyleOptions:(MAMapCustomStyleOptions *)styleOptions中使用，请到官网(lbs.amap.com)更新新版样式文件)
+ * @param StyleOptions 自定义样式options. since 6.6.0
+ */
+- (void)setCustomMapStyleOptions:(MAMapCustomStyleOptions *)styleOptions;
 
 #pragma mark - Polyline Texture
 
