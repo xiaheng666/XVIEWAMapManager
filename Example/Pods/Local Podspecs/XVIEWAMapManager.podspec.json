@@ -1,6 +1,6 @@
 {
   "name": "XVIEWAMapManager",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "summary": "高德地图相关，定位以及导航",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWAMapManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWAMapManager.git",
-    "tag": "0.1.6"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "8.0"
